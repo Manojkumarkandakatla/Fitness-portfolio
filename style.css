@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero__image{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    height: 100px;
+}
+
+.header__logo-image {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.header__menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.header__menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu li:hover {
+    text-decoration: underline;
+}
+
+.header__contact-button {
+    border: 2px solid white;
+    background-color: red;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.header__contact:hover {
+    opacity: 0.7;
+}
+
+.slider-container {
+    color: white;
+    margin: 180px 180px;
+}
+
+.slider__name {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    line-height: 0.8;
+}
+
+.slider__profession {
+    color: white;
+    font-size: 140px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.slider__course {
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.slider__course:hover {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.course-container {
+    display: flex;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.course__personal-training {
+    flex: 1;
+    background-color: black;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.course__personal-training img {
+    opacity: 0.7;
+    width: 780px;
+    height: 470px;
+    z-index: -1;
+    display: block;
+}
+
+.course__content {
+    position: absolute;
+    font-family:"Oswald", sans-serif;
+    text-align: center;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    margin: 0px 180px;
+    z-index: 2;
+
+}
+
+.course__content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.course__content p {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.course__content button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.course__content button:hover {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.course__group-training {
+    flex: 1;
+    background-color: black;
+    position: relative;
+}
+
+.course__group-training img {
+    opacity: 0.7;
+    width: 760px;
+    height: 470px;
+    z-index: -1;
+}
+
+.card-container {
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.card-heading {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    padding: 2px;
+    margin-top: -120px;
+    font-family: "Oswald", sans-serif;
+    -webkit-text-stroke: 2px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
